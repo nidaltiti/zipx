@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    ================================
+    Cool Repository by Nidal Titi
+    Contains: Cloudscraper + Toolbelt
+    Last updated: 2025-08-01
+    ================================
+-->
+
 <addon id="repository.cool"
        name="Cool Repository"
        version="1.0.0"
        provider-name="Nidal Titi">
 
+    <!--
+        Section: Repository Info
+        This points to addons.xml and md5 on GitHub
+    -->
     <extension point="xbmc.addon.repository" name="Cool Repository">
         <info compressed="false">
-            https://raw.githubusercontent.com/nidaltiti/repo/main/zips/addons.xml
+            https://raw.githubusercontent.com/nidaltiti/cool/main/zips/addons.xml
         </info>
         <checksum>
-            https://raw.githubusercontent.com/nidaltiti/repo/main/zips/addons.xml.md5
+            https://raw.githubusercontent.com/nidaltiti/cool/main/zips/addons.xml.md5
         </checksum>
         <datadir zip="true">
-            https://raw.githubusercontent.com/nidaltiti/repo/main/zips/
+            https://raw.githubusercontent.com/nidaltiti/cool/main/zips/
         </datadir>
     </extension>
 
+    <!-- Metadata info -->
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Cool Repository containing dependencies</summary>
         <description lang="en_GB">
