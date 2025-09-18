@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.matrix" name="matrix" version="6.5.4" provider-name="zombi">
+<addon id="plugin.video.matrix" name="matrix" version="6.5.5" provider-name="Nidaltiti">
     <requires>
 
         <trycatch>
@@ -89,9 +89,9 @@
         provider-name="zombi">
     <extension point="xbmc.addon.repository" name="Zombi Repository">
     <dir>
-        <info compressed="false">https://raw.githubusercontent.com/nidaltiti/zipx/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nidaltiti/zipx/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/nidaltiti/zipx/raw/master/zips</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/nidaltiti/zombi-addons/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nidaltiti/zombi-addons/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/nidaltiti/zombi-addons/raw/master/repo</datadir>
     </dir>
     <dir>
     <info compressed="false">https://raw.githubusercontent.com/nidaltiti/kodiPackages/master/addons.xml</info>
