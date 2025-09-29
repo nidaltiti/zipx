@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.matrix" name="matrix" version="6.5.5" provider-name="Nidaltiti">
+<addon id="plugin.video.matrix" name="matrix" version="6.5.6" provider-name="Nidaltiti">
     <requires>
 
         <trycatch>
